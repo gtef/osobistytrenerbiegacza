@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Osobisty trener biegacza</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_new_plan">Nowy plan</string>
+    <string name="action_clear_data">Wyczyść dane</string>
+
+    <string name="title_activity_new_plan">Nowy plan</string>
+
+    <string name="dialog_delete_message">Czy na pewno chcesz usunąć wszystkie dane użytkownika?</string>
+    <string name="dialog_delete_title">Usunąć dane użytkownika?</string>
+    <string name="yes">Tak</string>
+    <string name="ok">Ok</string>
+    <string name="no">Nie</string>
+
+    <!--activity_new_plan-->
+    <string name="tv_choose_distance">Wybierz dystans</string>
+    <string name="tv_type_time">Podaj docelowy czas</string>
+    <string name="btn_make_test"> Przeprowadź test wydolnościowy</string>
+    <string name="btn_generate">Generuj plan</string>
+    <string name="et_time_format">hh:mm</string>
+    <string name="hello_blank_fragment">today dzis</string>
+    <string name="title_section1">sekcja 1 do usuniecia</string>
+    <string name="title_section2">sekcja 2 do usuniecia</string>
+    <string name="title_section3">sekcja 3 do usuniecia</string>
+
+    <string-array name="distance_array">
+        <item>Maraton</item>
+        <item>Półmaraton</item>
+        <item>10 km</item>
+    </string-array>
+
+    <!--activity_cooper-->
+    <string name="title_activity_cooper">Test Coopera</string>
+    <string name="dialog_cooper_title">Test Coopera</string>
+    <string name="dialog_cooper_message">Do oceny wydolności zostanie przeprowadzony test coopera. Polega on na 12 minutowym biegu.</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="time_start">00:00</string>
+    <string name="distance_start">0 m</string>
+    <string name="dialog_age_title">Dane osobowe</string>
+    <string name="dialog_age_message">Podaj wiek</string>
+    <string name="dialog_cooper_result_title">Wynik testu</string>
+
+    <!--activity_training-->
+    <string name="title_activity_training">Trening</string>
+    <string name="btn_pause">Pauza</string>
+    <string name="pace_start">0\'0\"/km</string>
+
+    <!--activity_training_summary-->
+    <string name="title_activity_training_summary">Podsumowanie</string>
+    <string name="activity_training_summary_btn_done_text">Gotowe</string>
+    <string name="action_export_data">Eksport historii</string>
+    <string name="title_activity_help">Pomoc</string>
+    <string name="action_help">Pomoc</string>
+    <string name="fragment_today_training_text">Brak ustawionego treninigu</string>
+    <string name="dialog_sex_message">Podaj płeć</string>
+    <string name="action_export_plan">Eksport planu</string>
+    <string name="fragment_history_list_tv_no_history_text">Brak historii</string>
+    <string name="fragment_training_list_tv_no_history_text">Brak planu treningowego</string>
+
+</resources>

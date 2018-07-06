@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jakub.osobistytrenerbiegacza.TodayFragment"
+
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center">
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Trening na dziś"
+        android:id="@+id/todayHeaderText"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_today_training_text"
+        android:id="@+id/todayTrainingText"
+        android:textSize="20dp"
+        android:layout_below="@+id/todayHeaderText"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rozpocznij trening"
+        android:id="@+id/todayStartTrainingButton"
+        android:layout_gravity="center_horizontal"
+        android:onClick="startTraining"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView android:id="@+id/todayAdviceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buty-skarpetki nie są są lepsze od zwykłych butów. Łatwiej o kontuzję."
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#92146f9e"
+        android:textSize="18dp"
+        android:padding="10dp"/>
+</RelativeLayout>
+
